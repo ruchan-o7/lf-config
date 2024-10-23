@@ -1,0 +1,28 @@
+set hidden true
+set ignorecase true
+set icons true
+set shell powershell
+set drawbox
+
+cmd open &start $Env:f
+
+map e $nvim $Env:f
+
+map w $powershell
+
+map <enter> shell
+
+cmd mkdir ${{
+ printf "Directory name: "
+read ans
+mkdir $ans
+}}
+
+map x $$f
+map X !$f
+
+#map e :push $mkdir<space>
+set cursorpreviewfmt "\033[7;2m"
+
+map gd cd ~/dev
+map gl cd ~/AppData/Local/lf

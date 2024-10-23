@@ -1,0 +1,56 @@
+: help
+: q
+: q
+: q!
+: exit
+: quit
+: set drawbox
+: quit
+: set drawbox
+: q
+: quit
+: nvim .
+: setlocal 
+: delete 
+: exit
+: quit
+: exit
+: quit
+$ go
+$ start .
+$ neovim lfrc
+: set drawbox
+: quit
+: quit
+: quit
+: mkdir
+: touch
+: quit
+: ls
+$ ls
+$ ls
+$ nvim .
+: quit
+: quit
+$ mkdir test
+: delete 
+: quit
+$ touch tesst.txt
+: q
+: quit
+: q
+: quit
+: quit
+: quit
+: quit
+: quit
+$ nvim lfrc 
+: quit
+$ nvim .
+$ nvim .,
+$ nvim .
+$ nvim Microsoft.PowerShell_profile.ps1 
+$ nvim .
+$ nvim .
+$ nvim icons 
+$ nvim lfrc 
